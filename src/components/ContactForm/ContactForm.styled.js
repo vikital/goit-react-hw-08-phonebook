@@ -3,10 +3,12 @@ import styled from 'styled-components';
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
-  background-color: #dcdcdc;
-  padding: 20px;
-  border-radius: 20px;
+  width: 400px;
+  padding: 12px;
+  background-color: rgb(195, 212, 203);
+  border: 3px solid #3f424d;
+  border-radius: 4px;
+  margin: 0 auto;
 `;
 
 export const Input = styled.input`
@@ -21,11 +23,15 @@ export const Input = styled.input`
 
 export const Text = styled.p`
   padding: 10px;
+  margin-bottom: 14px;
 `;
 
 export const Button = styled.button`
   padding: 10px;
   margin-top: 20px;
-  border-radius: 6px;
-  border: 1px solid;
+  border-radius: 10px;
+
+  :hover {
+    background-color: #d4c6c5;
+  }
 `;

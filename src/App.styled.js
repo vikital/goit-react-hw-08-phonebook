@@ -5,12 +5,9 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
-`;
-
-export const Title = styled.h1`
-  margin-top: 20px;
+  height: 100vh;  
 `;
 
 export const Heading = styled.h2`
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
 `;
