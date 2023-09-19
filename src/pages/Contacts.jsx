@@ -12,8 +12,8 @@ function Contacts() {
           <title>Phonebook</title>
         </Helmet>
         <ContactForm />
-        {/* <h2>Contacts</h2> */}
-        <Text>Contacts</Text>
+
+        <Text>Find contacts by name</Text>
         <Filter />
         <ContactList />
       </HelmetProvider>

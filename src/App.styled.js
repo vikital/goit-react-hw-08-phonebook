@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
-  height: 100vh;  
+  height: 100vh;
 `;
 
 export const Heading = styled.h2`

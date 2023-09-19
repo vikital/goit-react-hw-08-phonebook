@@ -14,8 +14,9 @@ export default function UserMenu() {
     <Container>
       <Avatar src={avatar} alt="avatar" />
       <Text>Hello, {user}</Text>
+
       <Button type="button" onClick={() => dispatch(logOut())}>
-        LogOut
+        Log Out
       </Button>
     </Container>
   );
